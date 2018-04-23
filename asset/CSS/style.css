@@ -1,0 +1,86 @@
+.first-section .smallring {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 1em;
+  border-style: solid;
+  border-color: orange;
+  width: 10em;
+  height: 10em;
+}
+
+.second-section .bigring {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 1em;
+  border-style: solid;
+  border-color: yellow;
+  width: 15em;
+  height: 15em;
+  box-shadow: 0 0 10px 5px orange;
+}
+
+#audi div:nth-child(1) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.21em;
+  border-style: solid;
+  border-color: #222;
+  width: 5em;
+  height: 5em;
+  margin: -1.025em;
+}
+
+#audi div:nth-child(2) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.22em;
+  border-style: solid;
+  border-color: #222;
+  width: 8em;
+  height: 8em;
+  margin: -1.05em;
+}
+
+#audi div:nth-child(3) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.23em;
+  border-style: solid;
+  border-color: #222;
+  width: 11em;
+  height: 11em;
+  margin: -1.075em;
+}
+
+#audi div:nth-child(4) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.24em;
+  border-style: solid;
+  border-color: #222;
+  width: 14em;
+  height: 14em;
+  margin: -1.1em;
+}
+
+#audi div:nth-child(5) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.25em;
+  border-style: solid;
+  border-color: #222;
+  width: 17em;
+  height: 17em;
+  margin: -1.125em;
+}
+
+#audi div:nth-child(6) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.26em;
+  border-style: solid;
+  border-color: #222;
+  width: 20em;
+  height: 20em;
+  margin: -1.15em;
+}

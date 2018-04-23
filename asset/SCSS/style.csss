@@ -1,0 +1,36 @@
+$yellow: yellow;
+$orange: orange;
+
+@mixin ring ($color, $widthBorder, $height) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: $widthBorder;
+  border-style: solid;
+  border-color: $color;
+  width: $height;
+  height: $height;
+ }
+.first-section {
+ .smallring{
+   @include ring($orange, 1em, 10em);
+ }
+}
+.second-section{
+  .bigring{
+    @include ring($yellow, 1em, 15em);
+    box-shadow: 0 0 10px 5px $orange;
+  }
+}
+
+$hAudi : 2em;
+$wAudi: 0.2em;
+$marginRing: -1em;
+@for $i from 1 through 6 {
+  #audi div:nth-child(#{$i}) {
+    $hAudi: $hAudi + 3em;
+    $wAudi: $wAudi + 0.01em;
+    @include ring (#222, $wAudi, $hAudi);
+    $marginRing: $marginRing - 0.025em;
+    margin: 0.5em $marginRing;
+  }
+}

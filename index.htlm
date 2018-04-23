@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="asset/CSS/style.css">
+  
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="logo"><img src="_logo.png" alt=""></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#"><span class="list">Fellows</span></a></li>
+                  <li><a href="#"><span class="list">The Ring</span></a></li>
+                  <li><a href="#"><span class="list">Reward</span></a></li>
+                  <li><a href="#"><span class="list">Hunter</span></a></li>
+                  <li><a href="#"><span class="list">Join</span></a></li>
+                  <li><a href="#"><span class="list">contact</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="first-section">
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="smallring"></div>
+        <p class="align-self-center">My Precious</p>
+        <div class="smallring"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="second-section">
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="bigring"></div>
+        <p class="align-self-center">The one Ring</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="third section">
+    <div class="container-fluid">
+      <div class="row justify-content-md-center" id="audi">
+        <div class="align-self-center"></div>
+        <div class="align-self-center"></div>
+        <div class="align-self-center"></div>
+        <div class="align-self-center"></div>
+        <div class="align-self-center"></div>
+        <div class="align-self-center"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
